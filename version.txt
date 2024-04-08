@@ -1,0 +1,16 @@
+git - 
+github
+terminal- 
+create a github account
+repositories - onlinre folder for projects 
+
+git init - initialize a git repositories
+git add <filename> - what files should be tracked git add .
+git commit - 
+git branch 
+git remote add 
+git push
+
+config 
+git config --global user.name 'username'
+git config --global user.email 'email' 

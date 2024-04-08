@@ -1,0 +1,625 @@
+/* css syntax - selector declaration block 
+    h1{ 
+        property: value; color: red;
+        property2: value 2 background-color: black;
+ } */
+/* h1 {
+  color: red;
+  background-color: blue;
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: 100;
+  
+} */
+/* CSS SELECTORS - tag selector(p, h ) id selector # class .,  grouping selector,*/
+/* h1 {
+  color: red;
+}
+p {
+  color: blue;
+} */
+/* #intro {
+  color: red;
+}
+.test {
+  color: green;
+}
+span,
+h4,
+.test,
+#intro {
+  color: pink;
+} */
+
+/* combination selector tags, id, class  */
+/* div h1 {
+  color: red;
+} */
+
+/* hex codes, rgb hsl rgba hsla */
+
+/* CSS TEXT PROPERTIES: text-align , text-transform*/
+/* h1 {
+  text-align: left;
+  text-transform: capitalize;
+  text-decoration: overline;
+}
+p {
+  text-transform: capitalize;
+  text-indent: 100px;
+} */
+
+/* css font properties font-size, font-style, fontweight, font-familys */
+/* websafe font */
+/* h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  color: blueviolet;
+  background-color: aliceblue;
+  font-size: 48px;
+} */
+
+/* div {
+  text-align: center;
+}
+
+div h3 {
+  color: blue;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+div h2 {
+  color: darkblue;
+  font-size: 32px;
+  text-transform: capitalize;
+}
+div p {
+  font-weight: 200;
+} */
+/*
+html
+  1. typography sylvia
+  2. Listing tayo
+  3. images tobi
+  4. anchor tags quam 
+  5. forms samuel
+  6. text formatting tags felix
+  7. table ezinne
+  8. semantic tags christian
+  9. html emojis pelumi
+*/
+/* 
+CSS
+  1. inline styles, internal styles, external stylesheet sylvia
+  2. css selectors christian
+  3. css text properties quam
+  4. css colors tayo
+  5. css font properties pelumi
+  6. google fonts tobi
+  
+*/
+/* rgb hexcodes #, rgba, hsl */
+/* ol li {
+  color: red;
+  font-family: "Open Sans", sans-serif;
+}
+ul {
+  background-color: green;
+} */
+
+/* open sans */
+
+/* id, class, grouping, combination tag, universal selector *, psuedo selectors*/
+/* #sun {
+  color: red;
+}
+.moon {
+  color: green;
+}
+h3,
+p {
+  color: red;
+}
+
+article .moon{
+
+} */
+* {
+  font-family: "Open sans", sans-serif;
+}
+h3 {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+/* font family, font-size, font-weight, font-style */
+
+/* letter-spacing, word-spacing, line height */
+
+/* width and height */
+.box {
+  width: 500px;
+  height: 400px;
+  background-color: red;
+}
+input {
+  width: 300px;
+  height: 100px;
+}
+
+/* specificity and css last rule  universal < tag < class < id < inline*/
+h1 {
+  color: blue;
+}
+.welcome {
+  color: green;
+}
+#wel {
+  color: blueviolet;
+}
+h1 {
+  color: yellow;
+  color: pink;
+}
+/* inheritance */
+section {
+  background-color: blue;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+}
+
+/* .box-1 {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+}
+.box-2 {
+  width: 50%;
+  height: 150px;
+  background-color: red;
+} */
+/* vw- viewport width vh - viewport height */
+/* .box-2 {
+  width: 50vw;
+  height: 100vh;
+} */
+/* .outer {
+  width: 100%;
+  height: 500px;
+  background-color: brown;
+}
+.inner {
+  width: 100%;
+  height: 50%;
+  background-color: blueviolet;
+} */
+
+/* em rem - texts */
+/* em 
+1em - 16px by default
+1em - browser settings 
+*/
+/* h2 {
+  text-align: center;
+}
+.abs {
+  font-size: 32px;
+}
+.rel {
+  font-size: 1.5em;
+} */
+/* 1rem - 16px by default
+1rem - based parent settings 
+*/
+/* .box-3 {
+  text-align: center;
+  font-size: 12px;
+}
+.px {
+  font-size: 16px;
+}
+.rem {
+  font-size: 1rem;
+}
+form {
+  width: 500px;
+  background-color: aqua;
+}
+input {
+  width: 80%;
+} */
+
+/* CSS BOX MODEL margin padding border border-radius */
+
+/* brder width, border style border color WSC */
+/* MARGINS - spaces outside of the box */
+/* TRBL trouble  TB RL  */
+
+/* auto margins and negative margins */
+
+/*  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  border: 2px solid blue;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  /* margin: 20px auto; */
+  /* margin-top: -150px;
+  margin-left: -50px; */
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+/* display 
+block- start up a new line div, p, h1, forms, article, section respect m in all direction
+inline- take up their content space span img input label, button a, do not respect tb margins
+inline-block */
+/* .inline {
+  background-color: red;
+  display: block;
+  margin: 20px;
+}
+.block {
+  background-color: blue;
+  display: inline-block;
+  margin-top: 200px;
+} */
+
+ul li {
+  list-style-type: none;
+  background-color: blueviolet;
+  display: inline-block;
+  margin: 50px;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  border: 2px solid red;
+  padding: 50px;
+  margin: 20px;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+.normal-box {
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5em;
+  color: white;
+}
+.one {
+  background-image: url("./images/img1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* direction, color1, color2 .... */
+.two {
+  background-image: linear-gradient(to top left, red, blue, yellow, black);
+}
+.three {
+  background-image: url("./images/img2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* box shadow H V blur , spread radius text- shadow */
+div.box {
+  width: 300px;
+  height: 300px;
+
+  border-radius: 10px;
+  margin: 50px auto;
+  text-align: center;
+  background-image: url("https://img.freepik.com/free-photo/pensive-male-customer-looking-away_74855-3601.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+.box:hover {
+  box-shadow: 3px 3px 5px 3px grey;
+}
+
+/* H V B S */
+/* tag class id  */
+/* psuedoclasses and psuedo element */
+h1 {
+  color: red;
+}
+.box > h1 {
+  color: blue;
+}
+
+/* firstLine firstletter */
+/* p::first-line {
+  font-size: 1.5em;
+}
+p::first-letter {
+  color: red;
+  font-weight: 900;
+} */
+
+p:hover {
+  color: red;
+}
+
+/* button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 1px solid red;
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+} */
+form {
+  width: 300px;
+  height: 200px;
+  margin: 30px auto;
+  box-shadow: 3px 3px 5px 3px grey;
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+}
+input,
+button {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin: 5px 0;
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid blue;
+}
+
+input:valid {
+  border: 1px solid green;
+}
+input:invalid {
+  border: 1px solid red;
+}
+
+/* Link Visited Hover Active */
+/* a {
+  text-decoration: none;
+} */
+a:link {
+  color: red;
+}
+a:visited {
+  color: aqua;
+}
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: darkgreen;
+}
+/* positioning, z-index, :root css variables */
+/* static relative fixed sticky absolute top bottom right and left */
+/* .box {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  position: relative;
+  top: 100px;
+  left: 200px;
+  let x = 2
+  let y= 7 
+} */
+
+
+/* .container {
+  display: flex;
+}
+.box-2 {
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: -50px;
+  top: 50px;
+
+} */
+.whatsapp {
+  width: 80px;
+  height: 80px;
+  background-color: green;
+  border-radius: 100%;
+  position: fixed;
+  right: 18px;
+  bottom: 20px;
+  z-index: 1000;
+}
+nav {
+  width: 100%;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+.rel {
+  border: 1px solid red;
+}
+
+.rel p {
+  position: relative;
+  background-color: yellow;
+}
+span {
+  background-color: red;
+  position: absolute;
+  top: 0px;
+}
+
+.form-control {
+  width: 300px;
+  height: 80px;
+  padding: 20px;
+  background-color: aliceblue;
+  margin: 20px auto;
+  position: relative;
+  z-index: -4;
+}
+input {
+  width: 90%;
+  height: 20px;
+  padding: 10px;
+  display: block;
+  margin: auto;
+  border: 1px solid grey;
+  outline: none;
+}
+.form-control button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 30px;
+  color: red;
+  right: 25px;
+}
+/* overflow overflow-y overflow-x hidden scroll */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: yellow;
+}
+.box {
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  box-shadow: 5px 5px 3px 5px black;
+  margin: 30px auto;
+  border-radius: 7px;
+  padding: 10px;
+}
+img.first {
+  width: 100%;
+  height: 40%;
+  border-radius: 10px;
+  display: block;
+  object-fit: cover;
+}
+button {
+  background-color: yellow;
+  color: black;
+  border: none;
+  outline: none;
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.box h1 {
+  color: black;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.box h1:hover {
+  cursor: pointer;
+  color: yellow;
+}
+.avatar-box {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+}
+
+.top-content {
+  text-align: center;
+}
+.bottom-content {
+  text-align: center;
+}
+.bottom-content div {
+  margin: 20px auto;
+  width: 90%;
+  height: 300px;
+}
+nav {
+  background-color: #0e0a2d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+.hamburger {
+  background-color: red;
+}
+.hamburger div {
+  background-color: white;
+  height: 5px;
+  width: 20px;
+  margin: 5px 0;
+}
+.links,
+.btn-links {
+  display: none;
+}
+/* layout of section-  */
+@media (min-width: 1024px) {
+  .bottom-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: right;
+  }
+
+  .hamburger {
+    display: none;
+  }
+  .links,
+  .btn-links {
+    display: block;
+  }
+}

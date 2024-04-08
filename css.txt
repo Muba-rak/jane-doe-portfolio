@@ -1,0 +1,61 @@
+selectors 
+css syntax
+text properties
+    1. line height
+    2. text align 
+    3. text decoration
+    4. word spacing, letter spacing
+    5. text tranform
+    6. Text indentation
+Fonnt properties
+    1. font size 
+    2. font style
+    3. font family
+    4. font weight
+    5. web safe fonts
+    6. google fonts
+
+color and background colors
+    1. hex codes
+    2. rgb, hsl, rgba, hsla
+
+CSS Box model felix
+    1. margins
+    2. padding
+    3. borders / outline
+    4. border radius
+    5. width and height
+
+Display properties tayo/kevin
+    1. block
+    2. inline
+    3. inline-block
+
+Visibility, opacity and display None
+
+Background images and Linear Gradients tayo
+
+box shadow / Text shadow
+
+Positioning / Z index tayo
+    1. fixed 
+    2. sticky
+    3. relative
+    4. absolute
+
+Psuedoclasses kevin
+    1. hover
+    2. focus
+    3. ::placeholders
+    4. ::first letter, ::firstline
+    5. visited, active, hover, link
+
+CSS Variables Tobi
+    1. :root
+    2. var
+
+Page layout
+    1. flex box (gap, justify content, flex direction align items flex wrap)
+
+
+media Queries
